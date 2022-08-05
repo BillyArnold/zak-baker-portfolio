@@ -41,7 +41,7 @@ const OtherServices = () => {
               transition={{ duration: 1, delay: .2 }}
             >
                 <Drawer className="w-full block" heading="ENGINEERING">
-                    <p>Whether it’s full band recordings or vocal sessions. The recording is the foundation for your song's sound, a great recording is vital for a powerful mix. As someone that works frequently with the Dolby Atmos format, I am also equipped with spatial audio recording techniques for recordings to get the most out of the immersive mixing formats.
+                    <p>Whether it&apos;s full band recordings or vocal sessions. The recording is the foundation for your song&apos;s sound, a great recording is vital for a powerful mix. As someone that works frequently with the Dolby Atmos format, I am also equipped with spatial audio recording techniques for recordings to get the most out of the immersive mixing formats.
 <br/><br/>
 I am both available as the in-house engineer at Blue Bell Hill Studios in Kent for recording, as well as freelance engineering jobs. Please get in contact with the email at the bottom of this page to discuss your project and availability.
 </p>
@@ -56,7 +56,7 @@ I am both available as the in-house engineer at Blue Bell Hill Studios in Kent f
               transition={{ duration: 1, delay: .4 }}
             >
                 <Drawer className="w-full block" heading="PRODUCTION">
-                    <p>The production is a very important part of any song, it’s what gives the track its identity through its feel and sonic characteristics. If you’re in need of song arrangement or sonic direction for either a single track or a larger project, please get in touch with the email below to discuss your project.
+                    <p>The production is a very important part of any song, it&apos;s what gives the track its identity through its feel and sonic characteristics. If you&apos;re in need of song arrangement or sonic direction for either a single track or a larger project, please get in touch with the email below to discuss your project.
 </p>
                 </Drawer>
             </motion.div>
@@ -70,7 +70,7 @@ I am both available as the in-house engineer at Blue Bell Hill Studios in Kent f
               transition={{ duration: 1, delay: .6 }}
             >
                 <Drawer className="w-full block" heading="EDITING">
-                    <p>Track time alignment for both instrumental tracks and vocal tracks. Discreet pitch correction with Melodyne. If you feel they are required, can be very crucial steps to getting your song to make the leap to sounding professional. If your track needs extensive editing before the mix stage, please get in touch with the email below. If you’re unsure if you need extensive editing, mention it anyway and we can figure out if it's needed.
+                    <p>Track time alignment for both instrumental tracks and vocal tracks. Discreet pitch correction with Melodyne. If you feel they are required, can be very crucial steps to getting your song to make the leap to sounding professional. If your track needs extensive editing before the mix stage, please get in touch with the email below. If you&apos;re unsure if you need extensive editing, mention it anyway and we can figure out if it&apos;s needed.
 </p>
                 </Drawer>
                 </motion.div>
