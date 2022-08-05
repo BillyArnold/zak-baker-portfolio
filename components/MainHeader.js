@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 const MainHeader = () => {
     return (
         <>
-            <div className="main-header bg-[url('/zakheader.png')] bg-no-repeat bg-cover md:bg-right-top h-[90vh] w-full flex items-center flex-col justify-end mb-20">
+            <div className="main-header bg-[url('/zakheader.png')] bg-no-repeat bg-cover md:bg-right-top h-[70vh] md:h-[90vh] w-full flex items-center flex-col justify-end mb-20">
             <div className="max-w-7xl w-full px-5 mx-auto pb-10 sm:pb-24 lg:pb-40">
             
             <motion.div
