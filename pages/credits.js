@@ -23,7 +23,7 @@ export default function CreditsPage() {
 
   return (
     <ScrollerMotion>
-    <div className="bg-mainDark font-termina font-medium text-2xl overflow-hidden">
+    <div className="bg-mainDark font-termina font-medium text-lg md:text-2xl overflow-hidden">
       <Head>
         <title>Zak Baker - Credits</title>
         <meta name="description" content="Engineering and Mix Engineering Credits" />

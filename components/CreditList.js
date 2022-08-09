@@ -54,7 +54,7 @@ const CreditList = (props) => {
                     <p className="text-shapeshift">Escaping from a Violent Time, Vol 1.</p>
                     <p>Assistant Mixing Engineer</p>
                 </SingleCredit>
-                <SingleCredit src="/BigImage.png">
+                <SingleCredit src="/BigImageCrop.png">
                 <p>Big Image</p>
                     <p className="text-shapeshift">Human Touch Is Forever </p>
                     <p>Assistant Recording Engineer</p>
