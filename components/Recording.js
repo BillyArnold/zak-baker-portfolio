@@ -2,6 +2,7 @@ import CustomContainer from "./UI/Container"
 import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"
+import Phones from "./Content/Phones"
 
 const Recording = () => {
     return (
@@ -15,7 +16,7 @@ const Recording = () => {
               viewport={{ once: true }}
               transition={{ duration: 1 }}
             >
-                    <Image src="/RecordingMixing.png" width="806" height="605" layout="responsive"/>
+                    <Phones/>
                     </motion.div>
                 </div>
 
@@ -26,7 +27,7 @@ const Recording = () => {
               viewport={{ once: true }}
               transition={{ duration: 1, delay: .2 }}
             >
-                    <h2 className="text-3xl  md:text-4xl mb-5">CLEARER SONICS <br/><span className="text-shapeshift">BETTER VISIBILITY</span></h2>
+                    <h2 className="text-2xl  md:text-4xl mb-5">CLEARER SONICS <br/><span className="text-shapeshift">BETTER VISIBILITY</span></h2>
                     <p>Streaming services such as <span className="text-shapeshift">Apple Music</span>, TIDAL and more are favouring Dolby Atmos mixes for promotion and playlist placements. </p>
                     </motion.div>
                 </div>

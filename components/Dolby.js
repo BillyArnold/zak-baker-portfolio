@@ -66,7 +66,7 @@ const Dolby = () => {
                     <div className="w-full md:w-4/5 text-center   mb-10">
                         <p>Blue Bell Hill Studios is equipped with a 7.1.4 Dolby Atmos setup which is officially certified and calibrated by Dolby.</p>
                     </div>
-                    <div className="w-full px-20 md:px-0 md:w-1/6">
+                    <div className="max-w-[100px] md:max-w-[unset] w-full md:px-0 md:w-1/6">
                         <Image src="/dolby.png" width="379" height="143" layout="responsive"/>
                     </div>
                 </div>

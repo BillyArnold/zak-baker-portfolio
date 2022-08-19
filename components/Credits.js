@@ -69,7 +69,7 @@ const Credits = () => {
               transition={{ duration: 1 }}
             > 
                 <Link href="/credits">
-                    <div className="font-medium text-shapeshift underline underline-offset-8 cursor-pointer text-3xl  md:text-4xl">
+                    <div className="font-medium text-shapeshift underline underline-offset-8 cursor-pointer text-2xl  md:text-4xl">
                         SEE THE REST <span className="text-white">-&gt;</span>
                     </div>
                 </Link>

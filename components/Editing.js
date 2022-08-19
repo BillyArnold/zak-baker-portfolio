@@ -15,7 +15,7 @@ const Editing = () => {
               viewport={{ once: true }}
               transition={{ duration: 1 }}
             >
-                    <Image src="/Editing.png" width="1200" height="900" layout="responsive"/>
+                    <Image src="/protoolsdolby.jpeg" width="1440" height="810" layout="responsive"/>
                     </motion.div>
                 </div>
 
@@ -26,7 +26,7 @@ const Editing = () => {
               viewport={{ once: true }}
               transition={{ duration: 1, delay: .2 }}
             >
-                    <h2 className="text-3xl  md:text-4xl mb-5">FROM STEREO<br/><span className="text-shapeshift">TO ATMOS</span></h2>
+                    <h2 className="text-2xl  md:text-4xl mb-5">FROM STEREO<br/><span className="text-shapeshift">TO ATMOS</span></h2>
                     <p>
                     Work from your existing stereo mix multitracks or stems, and open up your songs to another level of <span className="text-shapeshift">space, clarity and depth</span>.
                     </p>

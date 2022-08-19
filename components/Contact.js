@@ -10,7 +10,7 @@ const Contact = () => {
               viewport={{ once: true }}
               transition={{ duration: 1 }}
             >
-                <div className="text-3xl text-right font-medium md:text-4xl mb-20">
+                <div className="text-2xl text-right font-medium md:text-4xl mb-20">
                     Want to work with me?
                 </div>
                 </motion.div>
