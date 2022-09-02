@@ -57,7 +57,7 @@ const Credits = () => {
           className="credits overflow-visible whitespace-nowrap pb-8"
         >
           
-          <div className="creditw-3/5 md:w-2/5 mr-2 md:mr-10 inline-block">
+          <div className="credit w-3/5 md:w-2/5 mr-2 md:mr-10 inline-block">
             <Image
               src="/Jungle.jpg"
               width="100%"
