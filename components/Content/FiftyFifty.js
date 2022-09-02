@@ -4,7 +4,7 @@ const FiftyFifty = () => {
   return (
     <>
       <div className="md:flex w-full">
-        <div className="w-full md:w-1/2 md:pr-5 pb-20 ">
+        <div className="w-full md:w-1/2 md:pr-5 pb-10 md:pb-20 ">
           <motion.div
             initial={{ opacity: 0, y: -40 }}
             whileInView={{ opacity: 1, y: 0 }}
