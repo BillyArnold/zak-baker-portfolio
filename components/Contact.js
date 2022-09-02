@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const Contact = () => {
   return (
     <>
-      <div className="flex flex-col relative justify-center w-full font-black text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl pb-20">
+      <div className="flex flex-col relative justify-center w-full text-white text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl pb-20">
         <motion.div
           initial={{ opacity: 0, y: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -32,7 +32,7 @@ const Contact = () => {
           transition={{ duration: 1 }}
         >
           <div
-            className="cursor-pointer"
+            className="cursor-pointer font-bold"
             onClick={() => {
               window.open("mailto:hello@zakbaker.co.uk");
             }}
@@ -47,7 +47,7 @@ const Contact = () => {
           transition={{ duration: 1 }}
         >
           <div
-            className="cursor-pointer text-shapeshift"
+            className="cursor-pointer text-shapeshift font-bold"
             onClick={() => {
               window.open("mailto:hello@zakbaker.co.uk");
             }}

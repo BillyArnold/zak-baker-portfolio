@@ -11,7 +11,7 @@ const MainHeader = () => {
             viewport={{ once: true }}
             transition={{ duration: 1 }}
           >
-            <div className="text-shapeshift font-black text-6xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
+            <div className="text-shapeshift font-bold text-6xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
               ZAK
             </div>
           </motion.div>
@@ -21,7 +21,7 @@ const MainHeader = () => {
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 0.1 }}
           >
-            <div className="font-black text-6xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
+            <div className="text-white font-bold text-6xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
               BAKER
             </div>
           </motion.div>

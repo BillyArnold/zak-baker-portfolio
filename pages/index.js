@@ -18,7 +18,7 @@ import { ScrollerMotion } from "scroller-motion";
 export default function Home() {
   return (
     <ScrollerMotion>
-      <div className="bg-mainDark font-termina font-medium text-lg md:text-2xl overflow-hidden">
+      <div className="bg-mainDark font-termina font-medium text-white text-lg md:text-2xl overflow-hidden">
         <Head>
           <title>Zak Baker</title>
           <meta

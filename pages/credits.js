@@ -22,7 +22,7 @@ import { ScrollerMotion } from "scroller-motion";
 export default function CreditsPage() {
   return (
     <ScrollerMotion>
-      <div className="bg-mainDark font-termina font-medium text-lg md:text-2xl overflow-hidden">
+      <div className="bg-mainDark font-termina text-white font-medium text-lg md:text-2xl overflow-hidden">
         <Head>
           <title>Zak Baker - Credits</title>
           <meta

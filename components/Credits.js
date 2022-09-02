@@ -33,7 +33,7 @@ const Credits = () => {
           viewport={{ once: true }}
           transition={{ duration: 1 }}
         >
-          <h2 className="text-shapeshift font-black text-3xl md:text-5xl">
+          <h2 className="text-shapeshift font-bold text-3xl md:text-5xl">
             CREDITS
           </h2>
           <br />

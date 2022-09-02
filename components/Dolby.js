@@ -14,7 +14,7 @@ const Dolby = () => {
             viewport={{ once: true }}
             transition={{ duration: 1 }}
           >
-            <h2 className="text-white font-black text-3xl md:text-5xl mb-10  md:mb-20">
+            <h2 className="text-white font-bold text-3xl md:text-5xl mb-10  md:mb-20">
               DOLBY ATMOS <span className="text-shapeshift">FOR MUSIC</span>
             </h2>
           </motion.div>
