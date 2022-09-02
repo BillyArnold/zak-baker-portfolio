@@ -56,14 +56,7 @@ const Credits = () => {
           ref={creditScrollRef}
           className="credits overflow-visible whitespace-nowrap pb-8"
         >
-          <div className="credit w-3/5 md:w-2/5 mr-2 md:mr-10 inline-block">
-            <Image
-              src="/Brockhampton.jpeg"
-              width="100%"
-              height="100%"
-              layout="responsive"
-            />
-          </div>
+          
           <div className="creditw-3/5 md:w-2/5 mr-2 md:mr-10 inline-block">
             <Image
               src="/Jungle.jpg"
@@ -83,6 +76,14 @@ const Credits = () => {
           <div className="credit w-3/5 md:w-2/5 mr-2 md:mr-10 inline-block">
             <Image
               src="/YouMeAtSix.jpg"
+              width="100%"
+              height="100%"
+              layout="responsive"
+            />
+          </div>
+          <div className="credit w-3/5 md:w-2/5 mr-2 md:mr-10 inline-block">
+            <Image
+              src="/Brockhampton.jpeg"
               width="100%"
               height="100%"
               layout="responsive"
