@@ -4,7 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 html,
 body {
   padding: 0;
@@ -34,4 +33,13 @@ a {
 
 .main-header {
   background-position: 73% 50%;
+}
+
+@media (max-width: 767px){
+  .dolby-section-mobile {
+    background-color: rgba(255, 255, 255, .1);
+      padding-top: 45px;
+      margin-bottom: 60px;
+      padding-bottom: 40px !important;
+  }
 }

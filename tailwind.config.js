@@ -6,17 +6,17 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'termina': ['termina', 'sans-serif']
+      termina: ["termina", "sans-serif"],
     },
     extend: {
       fontFamily: {
-        'sans': ['termina', 'sans-serif'],
+        sans: ["termina", "sans-serif"],
       },
       colors: {
-        'shapeshift': '#14e39d',
-        'mainDark': '#141414',
-      }
+        shapeshift: "#14e39d",
+        mainDark: "#141414",
+      },
     },
   },
   plugins: [],
-}
+};
