@@ -15,7 +15,7 @@ const OtherServices = () => {
             viewport={{ once: true }}
             transition={{ duration: 1 }}
           >
-            <h2 className="font-black ml-[-7px] md:ml-0 text-3xl md:text-5xl pb-20">
+            <h2 className="font-bold ml-[-7px] md:ml-0 text-3xl md:text-5xl pb-20">
               OTHER SERVICES
             </h2>
           </motion.div>
