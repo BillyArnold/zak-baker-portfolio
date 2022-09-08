@@ -1,7 +1,13 @@
 import "../styles/globals.css";
 import { motion } from "framer-motion";
+import TagManager from "react-gtm-module";
+import { useEffect } from "react";
 
 function MyApp({ Component, pageProps, router }) {
+  useEffect(() => {
+    TagManager.initialize({ gtmId: "AW-10982415924" });
+  }, []);
+
   return (
     <>
       <Component {...pageProps} />
