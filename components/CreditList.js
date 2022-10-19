@@ -26,6 +26,11 @@ const CreditList = (props) => {
           <p className="text-shapeshift">Roadrunner</p>
           <p>Assistant Recording Engineer</p>
         </SingleCredit>
+        <SingleCredit src="/louis.png">
+          <p>Louis Tomlinson</p>
+          <p className="text-shapeshift">Faith in the Future</p>
+          <p>Assistant Recording Engineer</p>
+        </SingleCredit>
         <SingleCredit src="/YouMeAtSix.jpg">
           <p>You Me At Six</p>
           <p className="text-shapeshift">SUCKAPUNCH</p>

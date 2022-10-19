@@ -30,6 +30,19 @@ export default function CreditsPage() {
             content="Engineering and Mix Engineering Credits"
           />
           <link rel="icon" href="/favicon.png" />
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=AW-10982415924"
+          ></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'AW-10982415924');`,
+            }}
+          />
         </Head>
 
         <FixedHeader />
@@ -42,6 +55,17 @@ export default function CreditsPage() {
           <Contact />
         </CustomContainer>
       </div>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `document.addEventListener('click',function(event){
+                var text = event.target.innerText.trim()
+                if(text.indexOf('HELLO@ZAK')!=-1 || text.indexOf('BAKER.CO.UK')!=-1){
+                gtag('event', 'conversion', {'send_to': 'AW-10982415924/urErCLyH1OMDELS86fQo'});
+                }
+                
+              });`,
+        }}
+      />
     </ScrollerMotion>
   );
 }
