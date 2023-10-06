@@ -12,12 +12,15 @@ const FiftyFifty = () => {
             transition={{ duration: 1, delay: 0.2 }}
           >
             <p>
-              Currently the in-house engineer at{" "}
-              <span className="text-shapeshift">Blue Bell Hill Studios</span> in
-              the Kent countryside, I have worked with artists including{" "}
-              <span className="text-shapeshift">Jungle</span>, Glass Animals,{" "}
-              <span className="text-shapeshift">Skepta</span>, Louis Tomlinson,{" "}
-              <span className="text-shapeshift">J Hus</span>, You Me At Six and
+              Freelance recording and mixing engineer currently residing in{" "}
+              <span className="text-shapeshift">Sydney, Australia.</span> Having
+              worked previously as the in-house engineer at Blue Bell Hill
+              Studios in the UK, I have worked with artists including{" "}
+              <span className="text-shapeshift">The Kooks</span>,
+              PinkPantheress, Jungle,{" "}
+              <span className="text-shapeshift">Glass Animals</span>, Skepta,
+              Louis Tomlinson, J Hus,{" "}
+              <span className="text-shapeshift">Nothing But Thieves</span> and
               countless more.
             </p>
           </motion.div>

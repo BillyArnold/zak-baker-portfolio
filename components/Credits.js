@@ -66,7 +66,7 @@ const Credits = () => {
           </div>
           <div className="credit w-3/5 md:w-2/5 mr-2 md:mr-10 inline-block">
             <Image
-              src="/GlassAnimals.jpg"
+              src="/J-Hus2.jpg"
               width="100%"
               height="100%"
               layout="responsive"
@@ -82,7 +82,7 @@ const Credits = () => {
           </div>
           <div className="credit w-3/5 md:w-2/5 mr-2 md:mr-10 inline-block">
             <Image
-              src="/Brockhampton.jpeg"
+              src="/Emeli-Sande.webp"
               width="100%"
               height="100%"
               layout="responsive"
