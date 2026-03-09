@@ -37,7 +37,7 @@ const Contact = () => {
               window.open("mailto:zaktbaker@gmail.com");
             }}
           >
-            HELLO@ZAK
+            ZAKTBAKER
           </div>
         </motion.div>
         <motion.div
@@ -52,7 +52,7 @@ const Contact = () => {
               window.open("mailto:zaktbaker@gmail.com");
             }}
           >
-            BAKER.CO.UK
+            @GMAIL.COM
           </div>
         </motion.div>
       </div>

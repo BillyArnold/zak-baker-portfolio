@@ -70,7 +70,7 @@ export default function Home() {
           dangerouslySetInnerHTML={{
             __html: `document.addEventListener('click',function(event){
                 var text = event.target.innerText.trim()
-                if(text.indexOf('HELLO@ZAK')!=-1 || text.indexOf('BAKER.CO.UK')!=-1){
+                if(text.indexOf('ZAKTBAKER')!=-1 || text.indexOf('@GMAIL.COM')!=-1){
                 gtag('event', 'conversion', {'send_to': 'AW-10982415924/urErCLyH1OMDELS86fQo'});
                 }
                 
