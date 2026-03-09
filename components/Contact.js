@@ -34,7 +34,7 @@ const Contact = () => {
           <div
             className="cursor-pointer font-bold"
             onClick={() => {
-              window.open("mailto:hello@zakbaker.co.uk");
+              window.open("mailto:zaktbaker@gmail.com");
             }}
           >
             HELLO@ZAK
@@ -49,7 +49,7 @@ const Contact = () => {
           <div
             className="cursor-pointer text-shapeshift font-bold"
             onClick={() => {
-              window.open("mailto:hello@zakbaker.co.uk");
+              window.open("mailto:zaktbaker@gmail.com");
             }}
           >
             BAKER.CO.UK
